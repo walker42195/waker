@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the waker.sandgren package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: waker.sandgren\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-08 11:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/AlarmListPage.qml:25 ../qml/SettingsPage.qml:23
+msgid "Settings"
+msgstr ""
+
+#: ../qml/AlarmListPage.qml:40
+msgid "Alarm set for %1 – %2"
+msgstr ""
+
+#: ../qml/AlarmListPage.qml:67 ../qml/EditAlarmPage.qml:204
+msgid "Rings %1"
+msgstr ""
+
+#: ../qml/AlarmListPage.qml:118
+msgid "Delete"
+msgstr ""
+
+#: ../qml/AlarmListPage.qml:195
+msgid "No alarms yet"
+msgstr ""
+
+#: ../qml/AlarmListPage.qml:208 ../qml/EditAlarmPage.qml:32
+msgid "New alarm"
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:32
+msgid "Edit alarm"
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:42
+msgid "Save"
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:78 ../qml/EditAlarmPage.qml:261
+msgid "Alarm"
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:142
+msgid "Could not save the alarm"
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:143
+msgid "Error code %1. Check that the time is valid and try again."
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:145
+msgid "OK"
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:223
+msgid "Repeat"
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:251
+msgid "Name"
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:293 ../qml/SoundPage.qml:25
+msgid "Sound"
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:317
+msgid ""
+"The alarm rings even in silent mode and when Waker is closed. Snooze length "
+"and alarm volume are set in System Settings → Sound."
+msgstr ""
+
+#: ../qml/EditAlarmPage.qml:325
+msgid "Delete alarm"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:12
+msgid "Neon"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:13
+msgid "Aurora"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:14
+msgid "Ocean"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:15
+msgid "Ember"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:16
+msgid "Ice"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:59
+msgid "Theme"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:118
+msgid "Animated background"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:122
+msgid "Turn off to save battery on older phones."
+msgstr ""
+
+#: ../qml/SettingsPage.qml:148
+msgid "Volume, vibration and snooze"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:152
+msgid ""
+"These are shared by all alarms on the phone and are set in System Settings."
+msgstr ""
+
+#: ../qml/SettingsPage.qml:157
+msgid "Open sound settings"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:182
+msgid ""
+"Waker uses the phone's built-in alarm service. Alarms ring even in silent "
+"mode, wake the phone from sleep and work when the app is closed. Alarms are "
+"shared with the Clock app."
+msgstr ""
+
+#: ../qml/SettingsPage.qml:187
+msgid "Free software, GPL-3.0"
+msgstr ""
+
+#: ../qml/SoundPage.qml:34
+msgid "Import sound"
+msgstr ""
+
+#: ../qml/SoundPage.qml:81
+msgid "Import sound from"
+msgstr ""
+
+#: ../qml/SoundPage.qml:155
+msgid "My sounds"
+msgstr ""
+
+#: ../qml/SoundPage.qml:158
+msgid "Tap + to import a sound file from another app."
+msgstr ""
+
+#: ../qml/SoundPage.qml:162
+msgid "System sounds"
+msgstr ""
+
+#: ../qml/components/AlarmUtils.qml:49 ../qml/components/DayChips.qml:67
+msgid "Once"
+msgstr ""
+
+#: ../qml/components/AlarmUtils.qml:51 ../qml/components/DayChips.qml:70
+msgid "Every day"
+msgstr ""
+
+#: ../qml/components/AlarmUtils.qml:53 ../qml/components/DayChips.qml:68
+msgid "Weekdays"
+msgstr ""
+
+#: ../qml/components/AlarmUtils.qml:55 ../qml/components/DayChips.qml:69
+msgid "Weekends"
+msgstr ""
+
+#. TRANSLATORS: time until the alarm, e.g. "in 1 d 3 h"
+#: ../qml/components/AlarmUtils.qml:109
+msgid "in %1 d %2 h"
+msgstr ""
+
+#. TRANSLATORS: time until the alarm, e.g. "in 7 h 12 min"
+#: ../qml/components/AlarmUtils.qml:112
+msgid "in %1 h %2 min"
+msgstr ""
+
+#. TRANSLATORS: time until the alarm, e.g. "in 4 min"
+#: ../qml/components/AlarmUtils.qml:114
+msgid "in %1 min"
+msgstr ""
+
+#: ../qml/components/AlarmUtils.qml:127
+msgid "Default"
+msgstr ""
+
+#: ../qml/components/AlarmUtils.qml:132
+msgid "Dawn"
+msgstr ""
+
+#: ../qml/components/AlarmUtils.qml:133
+msgid "Classic"
+msgstr ""
+
+#: ../qml/components/AlarmUtils.qml:134
+msgid "Pulse"
+msgstr ""
+
+#: ../qml/components/NextAlarmBanner.qml:71
+msgid "Next alarm"
+msgstr ""
+
+#: ../qml/components/NextAlarmBanner.qml:71
+msgid "No active alarms"
+msgstr ""
+
+#: ../qml/components/NextAlarmBanner.qml:104
+msgid ""
+"Tap + to set an alarm. Waker rings even when the phone is in silent mode."
+msgstr ""
+
+#: waker.desktop.in.h:1
+msgid "Waker!"
+msgstr ""

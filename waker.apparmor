@@ -1,0 +1,8 @@
+{
+    "policy_groups": [
+        "audio",
+        "calendar",
+        "content_exchange"
+    ],
+    "policy_version": "$ENV{APPARMOR_POLICY}"
+}

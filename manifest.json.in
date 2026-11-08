@@ -1,0 +1,15 @@
+{
+    "name": "waker.sandgren",
+    "description": "Alarm clock that rings even in silent mode",
+    "architecture": "$ENV{ARCH}",
+    "title": "Waker!",
+    "hooks": {
+        "waker": {
+            "apparmor": "waker.apparmor",
+            "desktop":  "waker.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Fredrik Sandgren <developer@sandgren.one>",
+    "framework" : "$ENV{CLICK_FRAMEWORK}"
+}

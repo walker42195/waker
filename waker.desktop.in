@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=Waker!
+Exec=qmlscene %U qml/Main.qml
+Icon=assets/waker.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true
