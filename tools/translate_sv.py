@@ -32,7 +32,7 @@ SV = {
     "Open sound settings": "Öppna ljudinställningar",
     "Waker uses the phone's built-in alarm service. Alarms ring even in silent mode, wake the phone from sleep and work when the app is closed. Alarms are shared with the Clock app.":
         "Waker använder telefonens inbyggda larmtjänst. Larmen ringer även i ljudlöst läge, väcker telefonen ur viloläge och fungerar när appen är stängd. Larmen delas med Klock-appen.",
-    "Free software, GPL-3.0": "Fri programvara, GPL-3.0",
+    "Made by Fredrik Sandgren · Free software, GPL-3.0": "Skapad av Fredrik Sandgren · Fri programvara, GPL-3.0",
     "Import sound": "Importera ljud",
     "Import sound from": "Importera ljud från",
     "My sounds": "Mina ljud",

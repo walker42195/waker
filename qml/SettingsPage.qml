@@ -183,10 +183,46 @@ Page {
                         color: Theme.textDim
                         textSize: Label.Small
                     }
+                    AbstractButton {
+                        id: siteLink
+                        objectName: "websiteLink"
+                        width: parent.width
+                        height: units.gu(6)
+                        onClicked: Qt.openUrlExternally("https://sandgren.one")
+
+                        Rectangle {
+                            anchors.fill: parent
+                            radius: units.gu(1.2)
+                            color: siteLink.pressed ? Theme.accentSoft : "transparent"
+                            border.width: units.dp(1)
+                            border.color: Theme.accentBorder
+                        }
+                        Icon {
+                            id: globe
+                            name: "stock_website"
+                            width: units.gu(2.6); height: width
+                            color: Theme.accent2
+                            anchors { left: parent.left; leftMargin: units.gu(1.5); verticalCenter: parent.verticalCenter }
+                        }
+                        Label {
+                            anchors { left: globe.right; leftMargin: units.gu(1.2); verticalCenter: parent.verticalCenter }
+                            text: "sandgren.one"
+                            color: "white"
+                            font.weight: Font.Medium
+                        }
+                        Icon {
+                            name: "external-link"
+                            width: units.gu(2); height: width
+                            color: Theme.textDim
+                            anchors { right: parent.right; rightMargin: units.gu(1.5); verticalCenter: parent.verticalCenter }
+                        }
+                    }
                     Label {
-                        text: i18n.tr("Free software, GPL-3.0")
+                        text: i18n.tr("Made by Fredrik Sandgren · Free software, GPL-3.0")
                         color: Theme.textFaint
                         textSize: Label.Small
+                        width: parent.width
+                        wrapMode: Text.WordWrap
                     }
                 }
             }

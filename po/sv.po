@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: waker.sandgren\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 11:46+0000\n"
+"POT-Creation-Date: 2026-11-08 11:57+0000\n"
 "PO-Revision-Date: 2026-11-08 12:00+0100\n"
 "Last-Translator: Fredrik Sandgren\n"
 "Language-Team: Swedish\n"
@@ -32,11 +32,11 @@ msgstr "Ringer %1"
 msgid "Delete"
 msgstr "Ta bort"
 
-#: ../qml/AlarmListPage.qml:194
+#: ../qml/AlarmListPage.qml:195
 msgid "No alarms yet"
 msgstr "Inga larm ännu"
 
-#: ../qml/AlarmListPage.qml:207 ../qml/EditAlarmPage.qml:32
+#: ../qml/AlarmListPage.qml:208 ../qml/EditAlarmPage.qml:32
 msgid "New alarm"
 msgstr "Nytt larm"
 
@@ -110,37 +110,37 @@ msgstr "Is"
 msgid "Theme"
 msgstr "Tema"
 
-#: ../qml/SettingsPage.qml:117
+#: ../qml/SettingsPage.qml:118
 msgid "Animated background"
 msgstr "Animerad bakgrund"
 
-#: ../qml/SettingsPage.qml:121
+#: ../qml/SettingsPage.qml:122
 msgid "Turn off to save battery on older phones."
 msgstr "Stäng av för att spara batteri på äldre telefoner."
 
-#: ../qml/SettingsPage.qml:146
+#: ../qml/SettingsPage.qml:148
 msgid "Volume, vibration and snooze"
 msgstr "Volym, vibration och snooze"
 
-#: ../qml/SettingsPage.qml:150
+#: ../qml/SettingsPage.qml:152
 msgid ""
 "These are shared by all alarms on the phone and are set in System Settings."
 msgstr "De gäller alla larm på telefonen och ställs in i Systeminställningar."
 
-#: ../qml/SettingsPage.qml:155
+#: ../qml/SettingsPage.qml:157
 msgid "Open sound settings"
 msgstr "Öppna ljudinställningar"
 
-#: ../qml/SettingsPage.qml:180
+#: ../qml/SettingsPage.qml:182
 msgid ""
 "Waker uses the phone's built-in alarm service. Alarms ring even in silent "
 "mode, wake the phone from sleep and work when the app is closed. Alarms are "
 "shared with the Clock app."
 msgstr "Waker använder telefonens inbyggda larmtjänst. Larmen ringer även i ljudlöst läge, väcker telefonen ur viloläge och fungerar när appen är stängd. Larmen delas med Klock-appen."
 
-#: ../qml/SettingsPage.qml:185
-msgid "Free software, GPL-3.0"
-msgstr "Fri programvara, GPL-3.0"
+#: ../qml/SettingsPage.qml:221
+msgid "Made by Fredrik Sandgren · Free software, GPL-3.0"
+msgstr "Skapad av Fredrik Sandgren · Fri programvara, GPL-3.0"
 
 #: ../qml/SoundPage.qml:34
 msgid "Import sound"
@@ -162,19 +162,19 @@ msgstr "Tryck på + för att importera en ljudfil från en annan app."
 msgid "System sounds"
 msgstr "Systemljud"
 
-#: ../qml/components/AlarmUtils.qml:49 ../qml/components/DayChips.qml:60
+#: ../qml/components/AlarmUtils.qml:49 ../qml/components/DayChips.qml:67
 msgid "Once"
 msgstr "En gång"
 
-#: ../qml/components/AlarmUtils.qml:51 ../qml/components/DayChips.qml:63
+#: ../qml/components/AlarmUtils.qml:51 ../qml/components/DayChips.qml:70
 msgid "Every day"
 msgstr "Varje dag"
 
-#: ../qml/components/AlarmUtils.qml:53 ../qml/components/DayChips.qml:61
+#: ../qml/components/AlarmUtils.qml:53 ../qml/components/DayChips.qml:68
 msgid "Weekdays"
 msgstr "Vardagar"
 
-#: ../qml/components/AlarmUtils.qml:55 ../qml/components/DayChips.qml:62
+#: ../qml/components/AlarmUtils.qml:55 ../qml/components/DayChips.qml:69
 msgid "Weekends"
 msgstr "Helger"
 
@@ -193,19 +193,19 @@ msgstr "om %1 h %2 min"
 msgid "in %1 min"
 msgstr "om %1 min"
 
-#: ../qml/components/AlarmUtils.qml:125
+#: ../qml/components/AlarmUtils.qml:127
 msgid "Default"
 msgstr "Standard"
 
-#: ../qml/components/AlarmUtils.qml:130
+#: ../qml/components/AlarmUtils.qml:132
 msgid "Dawn"
 msgstr "Gryning"
 
-#: ../qml/components/AlarmUtils.qml:131
+#: ../qml/components/AlarmUtils.qml:133
 msgid "Classic"
 msgstr "Klassisk"
 
-#: ../qml/components/AlarmUtils.qml:132
+#: ../qml/components/AlarmUtils.qml:134
 msgid "Pulse"
 msgstr "Puls"
 
