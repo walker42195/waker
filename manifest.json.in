@@ -1,5 +1,5 @@
 {
-    "name": "waker.sandgren",
+    "name": "waker.sandgren.one",
     "description": "Alarm clock that rings even in silent mode",
     "architecture": "$ENV{ARCH}",
     "title": "Waker!",

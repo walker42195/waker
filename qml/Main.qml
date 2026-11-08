@@ -28,7 +28,7 @@ import "components"
 MainView {
     id: root
     objectName: "mainView"
-    applicationName: "waker.sandgren"
+    applicationName: "waker.sandgren.one"
     anchorToKeyboard: true
 
     width: units.gu(45)

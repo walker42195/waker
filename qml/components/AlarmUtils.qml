@@ -142,6 +142,6 @@ QtObject {
      */
     function bundledSoundUrl(name) {
         var u = Qt.resolvedUrl("../../sounds/" + name + ".ogg").toString()
-        return u.replace(/\/waker\.sandgren\/\d[^\/]*\/sounds\//, "/waker.sandgren/current/sounds/")
+        return u.replace(/\/waker\.sandgren\.one\/\d[^\/]*\/sounds\//, "/waker.sandgren.one/current/sounds/")
     }
 }

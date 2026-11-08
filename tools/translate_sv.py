@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Skapar/uppdaterar po/sv.po från po/waker.sandgren.pot med svenska översättningar."""
+"""Skapar/uppdaterar po/sv.po från po/waker.sandgren.one.pot med svenska översättningar."""
 import pathlib, re, subprocess
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -54,7 +54,7 @@ SV = {
     "Waker!": "Waker!",
 }
 
-pot = (ROOT / "po/waker.sandgren.pot").read_text()
+pot = (ROOT / "po/waker.sandgren.one.pot").read_text()
 
 def unquote(block):
     return "".join(re.findall(r'"((?:[^"\\]|\\.)*)"', block)).encode().decode("unicode_escape").encode("latin-1").decode("utf-8")

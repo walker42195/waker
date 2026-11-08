@@ -35,7 +35,7 @@ snooze length, alarm volume and vibration are system settings.
 Requires [Clickable](https://clickable-ut.dev) ≥ 8.8 and Docker or Podman.
 
 ```bash
-clickable build                 # → build/all/app/waker.sandgren_<version>_all.click
+clickable build                 # → build/all/app/waker.sandgren.one_<version>_all.click
 clickable desktop --lang sv_SE  # UI test on the desktop (alarms use a memory backend there)
 clickable install --ssh <phone-ip> && clickable launch --ssh <phone-ip>
 ```
