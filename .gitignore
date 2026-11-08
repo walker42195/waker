@@ -1,3 +1,7 @@
 /build/
 /.clickable/
 __pycache__/
+
+# Agentinstruktioner (lokala, synkas inte)
+/AGENTS.md
+/CLAUDE.md
