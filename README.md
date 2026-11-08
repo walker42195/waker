@@ -3,6 +3,8 @@
 An alarm clock for **Ubuntu Touch** that rings **even in silent mode** – with a
 calm, flowing neon look.
 
+**Website & download:** https://waker.sandgren.one (English: https://waker.sandgren.one/en/)
+
 <p>
 <img src="docs/screenshot-list.png" width="200"> <img src="docs/screenshot-edit.png" width="200">
 <img src="docs/screenshot-sound.png" width="200"> <img src="docs/screenshot-themes.png" width="200">

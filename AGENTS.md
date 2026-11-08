@@ -31,4 +31,5 @@ clickable install --ssh <telefon-ip>
 - I desktop-läget används minnesbackenden för larm. Den sparar datum som lokaliserad text och kan inte läsa tillbaka dem, vilket ger "spökkort" med `--:--`. Det gäller bara desktop: radera `~/.clickable/home/.local/share/waker.sandgren.one/alarms.json`.
 
 ## Publicering
+- **Webbsida:** https://waker.sandgren.one (sv + `/en/`), med källa i `../waker-website` (privat repo `walker42195/waker-website`). Sidan har direkt nedladdning av `.click`, och `./deploy.sh` där tar det senaste bygget härifrån.
 OpenStore: https://open-store.io. Användaren loggar in och laddar upp själv. Uppdateringar görs med `clickable publish` och en API-nyckel. Höj `version` i `manifest.json.in` vid varje release.
