@@ -162,6 +162,34 @@ Page {
 
             GlassCard {
                 width: parent.width
+                height: feedbackColumn.height + units.gu(4)
+                Column {
+                    id: feedbackColumn
+                    anchors {
+                        left: parent.left; right: parent.right
+                        verticalCenter: parent.verticalCenter
+                        margins: units.gu(2)
+                    }
+                    spacing: units.gu(1)
+                    Label { text: i18n.tr("Ideas or problems?"); color: "white" }
+                    Label {
+                        width: parent.width
+                        wrapMode: Text.WordWrap
+                        text: i18n.tr("Send a suggestion or a bug report straight to the developer.")
+                        color: Theme.textDim
+                        textSize: Label.Small
+                    }
+                    Button {
+                        objectName: "feedbackButton"
+                        text: i18n.tr("Send feedback")
+                        color: Theme.accent1
+                        onClicked: page.pageStack.push(Qt.resolvedUrl("FeedbackPage.qml"))
+                    }
+                }
+            }
+
+            GlassCard {
+                width: parent.width
                 height: aboutColumn.height + units.gu(4)
                 Column {
                     id: aboutColumn

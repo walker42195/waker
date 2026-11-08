@@ -19,6 +19,8 @@ calm, flowing neon look.
 - Light on the CPU: pre-rendered backgrounds that drift slowly, paused when the
   app is not in the foreground, and can be switched off
 - English and Swedish
+- Send suggestions and bug reports from the app (Settings → Send feedback); they are
+  emailed to developer@sandgren.one via `waker.sandgren.one/api/feedback.php`
 
 ## How it works
 

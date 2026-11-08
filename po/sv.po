@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: waker.sandgren.one\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 11:57+0000\n"
+"POT-Creation-Date: 2026-11-08 17:13+0000\n"
 "PO-Revision-Date: 2026-11-08 12:00+0100\n"
 "Last-Translator: Fredrik Sandgren\n"
 "Language-Team: Swedish\n"
@@ -60,7 +60,7 @@ msgstr "Kunde inte spara larmet"
 msgid "Error code %1. Check that the time is valid and try again."
 msgstr "Felkod %1. Kontrollera att tiden är giltig och försök igen."
 
-#: ../qml/EditAlarmPage.qml:145
+#: ../qml/EditAlarmPage.qml:145 ../qml/FeedbackPage.qml:109
 msgid "OK"
 msgstr "OK"
 
@@ -85,6 +85,98 @@ msgstr "Larmet ringer även i ljudlöst läge och när Waker är stängd. Snooze
 #: ../qml/EditAlarmPage.qml:325
 msgid "Delete alarm"
 msgstr "Ta bort larm"
+
+#: ../qml/FeedbackPage.qml:35
+msgid "Feedback"
+msgstr "Feedback"
+
+#: ../qml/FeedbackPage.qml:82
+msgid "Too many messages in a short time. Please try again later."
+msgstr "För många meddelanden på kort tid. Försök igen senare."
+
+#: ../qml/FeedbackPage.qml:83
+msgid "The email address doesn't look valid."
+msgstr "E-postadressen ser inte giltig ut."
+
+#: ../qml/FeedbackPage.qml:84
+msgid "Please write a little more."
+msgstr "Skriv lite mer."
+
+#: ../qml/FeedbackPage.qml:85
+msgid "The message is too long."
+msgstr "Meddelandet är för långt."
+
+#: ../qml/FeedbackPage.qml:87
+msgid "Could not reach the server. Check your internet connection."
+msgstr "Kunde inte nå servern. Kontrollera internetanslutningen."
+
+#: ../qml/FeedbackPage.qml:88
+msgid "The server could not send the message (error %1)."
+msgstr "Servern kunde inte skicka meddelandet (fel %1)."
+
+#: ../qml/FeedbackPage.qml:106
+msgid "Thank you!"
+msgstr "Tack!"
+
+#: ../qml/FeedbackPage.qml:107
+msgid "Your message has been sent to the developer."
+msgstr "Ditt meddelande har skickats till utvecklaren."
+
+#: ../qml/FeedbackPage.qml:120
+msgid "Could not send"
+msgstr "Kunde inte skicka"
+
+#: ../qml/FeedbackPage.qml:123
+msgid "Try again"
+msgstr "Försök igen"
+
+#: ../qml/FeedbackPage.qml:128
+msgid "Use email app instead"
+msgstr "Använd e-postappen i stället"
+
+#: ../qml/FeedbackPage.qml:132
+msgid "Close"
+msgstr "Stäng"
+
+#: ../qml/FeedbackPage.qml:170
+msgid "Have an idea for Waker, or did something not work? Tell the developer."
+msgstr "Har du en idé till Waker, eller fungerade något inte? Berätta för utvecklaren."
+
+#: ../qml/FeedbackPage.qml:179
+msgid "Suggestion"
+msgstr "Förslag"
+
+#: ../qml/FeedbackPage.qml:180
+msgid "Bug report"
+msgstr "Buggrapport"
+
+#: ../qml/FeedbackPage.qml:222
+msgid "What happened, and what did you expect to happen?"
+msgstr "Vad hände, och vad hade du väntat dig skulle hända?"
+
+#: ../qml/FeedbackPage.qml:223
+msgid "Describe your idea…"
+msgstr "Beskriv din idé …"
+
+#: ../qml/FeedbackPage.qml:230
+msgid "Your email (optional, for a reply)"
+msgstr "Din e-post (frivilligt, för svar)"
+
+#: ../qml/FeedbackPage.qml:244
+msgid "Include app version and device info"
+msgstr "Bifoga appversion och enhetsinfo"
+
+#: ../qml/FeedbackPage.qml:274
+msgid "Send"
+msgstr "Skicka"
+
+#: ../qml/FeedbackPage.qml:291
+msgid "Sent to %1 via waker.sandgren.one. Only what you see here is sent."
+msgstr "Skickas till %1 via waker.sandgren.one. Bara det du ser här skickas."
+
+#: ../qml/FeedbackPage.qml:306
+msgid "Or write an email to %1"
+msgstr "Eller skriv ett mejl till %1"
 
 #: ../qml/SettingsPage.qml:12
 msgid "Neon"
@@ -131,14 +223,26 @@ msgstr "De gäller alla larm på telefonen och ställs in i Systeminställningar
 msgid "Open sound settings"
 msgstr "Öppna ljudinställningar"
 
-#: ../qml/SettingsPage.qml:182
+#: ../qml/SettingsPage.qml:174
+msgid "Ideas or problems?"
+msgstr "Idéer eller problem?"
+
+#: ../qml/SettingsPage.qml:178
+msgid "Send a suggestion or a bug report straight to the developer."
+msgstr "Skicka ett förbättringsförslag eller en buggrapport direkt till utvecklaren."
+
+#: ../qml/SettingsPage.qml:184
+msgid "Send feedback"
+msgstr "Skicka feedback"
+
+#: ../qml/SettingsPage.qml:210
 msgid ""
 "Waker uses the phone's built-in alarm service. Alarms ring even in silent "
 "mode, wake the phone from sleep and work when the app is closed. Alarms are "
 "shared with the Clock app."
 msgstr "Waker använder telefonens inbyggda larmtjänst. Larmen ringer även i ljudlöst läge, väcker telefonen ur viloläge och fungerar när appen är stängd. Larmen delas med Klock-appen."
 
-#: ../qml/SettingsPage.qml:221
+#: ../qml/SettingsPage.qml:249
 msgid "Made by Fredrik Sandgren · Free software, GPL-3.0"
 msgstr "Skapad av Fredrik Sandgren · Fri programvara, GPL-3.0"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: waker.sandgren.one\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 14:46+0000\n"
+"POT-Creation-Date: 2026-11-08 17:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Error code %1. Check that the time is valid and try again."
 msgstr ""
 
-#: ../qml/EditAlarmPage.qml:145
+#: ../qml/EditAlarmPage.qml:145 ../qml/FeedbackPage.qml:109
 msgid "OK"
 msgstr ""
 
@@ -85,6 +85,98 @@ msgstr ""
 
 #: ../qml/EditAlarmPage.qml:325
 msgid "Delete alarm"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:35
+msgid "Feedback"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:82
+msgid "Too many messages in a short time. Please try again later."
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:83
+msgid "The email address doesn't look valid."
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:84
+msgid "Please write a little more."
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:85
+msgid "The message is too long."
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:87
+msgid "Could not reach the server. Check your internet connection."
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:88
+msgid "The server could not send the message (error %1)."
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:106
+msgid "Thank you!"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:107
+msgid "Your message has been sent to the developer."
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:120
+msgid "Could not send"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:123
+msgid "Try again"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:128
+msgid "Use email app instead"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:132
+msgid "Close"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:170
+msgid "Have an idea for Waker, or did something not work? Tell the developer."
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:179
+msgid "Suggestion"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:180
+msgid "Bug report"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:222
+msgid "What happened, and what did you expect to happen?"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:223
+msgid "Describe your idea…"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:230
+msgid "Your email (optional, for a reply)"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:244
+msgid "Include app version and device info"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:274
+msgid "Send"
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:291
+msgid "Sent to %1 via waker.sandgren.one. Only what you see here is sent."
+msgstr ""
+
+#: ../qml/FeedbackPage.qml:306
+msgid "Or write an email to %1"
 msgstr ""
 
 #: ../qml/SettingsPage.qml:12
@@ -132,14 +224,26 @@ msgstr ""
 msgid "Open sound settings"
 msgstr ""
 
-#: ../qml/SettingsPage.qml:182
+#: ../qml/SettingsPage.qml:174
+msgid "Ideas or problems?"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:178
+msgid "Send a suggestion or a bug report straight to the developer."
+msgstr ""
+
+#: ../qml/SettingsPage.qml:184
+msgid "Send feedback"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:210
 msgid ""
 "Waker uses the phone's built-in alarm service. Alarms ring even in silent "
 "mode, wake the phone from sleep and work when the app is closed. Alarms are "
 "shared with the Clock app."
 msgstr ""
 
-#: ../qml/SettingsPage.qml:221
+#: ../qml/SettingsPage.qml:249
 msgid "Made by Fredrik Sandgren · Free software, GPL-3.0"
 msgstr ""
 

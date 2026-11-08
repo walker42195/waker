@@ -6,7 +6,7 @@ Gäller Claude Code och agy i den här mappen. Globala regler finns i `~/AGENTS.
 - Alarmklocka för **Ubuntu Touch 24.04-1.x**. App-id **`waker.sandgren.one`** (bytt från `waker.sandgren` 2026-11-08, före första publiceringen), som inte får ändras efter publicering (det är permanent i OpenStore). Titeln är "Waker!".
 - Ren QML (`builder: pure-qml-cmake`) → ett enda `waker.sandgren.one_<ver>_all.click` för alla arkitekturer.
 - Larmen går **via systemets alarm-API** (`Lomiri.Components` `Alarm`/`AlarmModel` → EDS → `lomiri-indicator-datetime`). Bygg aldrig en egen timer i appen: UT pausar appar i bakgrunden. Indikatorn tystar aldrig larm i ljudlöst läge (`src/snap.cpp`).
-- AppArmor: `audio`, `calendar` (reserved, så OpenStore granskar manuellt) och `content_exchange`. `clickable.yaml` har `ignore_review_errors: true` enbart på grund av `calendar`.
+- AppArmor: `audio`, `calendar` (reserved, så OpenStore granskar manuellt), `content_exchange` och `networking` (för feedback). `clickable.yaml` har `ignore_review_errors: true` enbart på grund av `calendar`.
 
 ## Struktur
 - `qml/Main.qml` innehåller MainView, Settings, AlarmModel, WaveBackground och PageStack.
@@ -17,6 +17,7 @@ Gäller Claude Code och agy i den här mappen. Globala regler finns i `~/AGENTS.
 - `po/sv.po` skapas av `tools/translate_sv.py`. Lägg till nya strängar i `SV`-tabellen och kör om efter `clickable build`.
 
 ## Viktiga detaljer
+- **Feedback** (`qml/FeedbackPage.qml`, nås via Inställningar → Skicka feedback): skickar en POST med JSON till `https://waker.sandgren.one/api/feedback.php` (källa i `../waker-website/api/`), som mejlar till developer@sandgren.one. Om det misslyckas finns mailto som reserv, men UT har ingen förinstallerad e-postapp. Versionen läses ur `manifest.json` med XHR.
 - Larm slås på/av och uppdateras som i lomiri-clock-app: sekunden växlas mellan 0 och 1 så att ändringen alltid skrivs (lomiri-clock-app #129).
 - Medföljande ljud sparas med sökvägen `.../waker.sandgren.one/current/sounds/...` (`AlarmUtils.bundledSoundUrl`), så att larmet hittar filen efter en uppdatering.
 - Importerade ljud flyttas med `ContentItem.move()` från `HubIncoming` till `~/.local/share/waker.sandgren.one/sounds/`.
