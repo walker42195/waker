@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: waker.sandgren.one\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 17:13+0000\n"
+"POT-Creation-Date: 2026-11-08 18:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -251,19 +251,19 @@ msgstr ""
 msgid "Import sound"
 msgstr ""
 
-#: ../qml/SoundPage.qml:81
+#: ../qml/SoundPage.qml:114
 msgid "Import sound from"
 msgstr ""
 
-#: ../qml/SoundPage.qml:155
+#: ../qml/SoundPage.qml:188
 msgid "My sounds"
 msgstr ""
 
-#: ../qml/SoundPage.qml:158
+#: ../qml/SoundPage.qml:191
 msgid "Tap + to import a sound file from another app."
 msgstr ""
 
-#: ../qml/SoundPage.qml:162
+#: ../qml/SoundPage.qml:195
 msgid "System sounds"
 msgstr ""
 

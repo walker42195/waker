@@ -7,7 +7,7 @@ import "components"
 
 /*
  * Välj larmljud: Wakers egna, egna importerade (via Content Hub) och systemets.
- * Ett tryck väljer och provlyssnar ljudet.
+ * Ett tryck väljer och provlyssnar ljudet, ett tryck till stoppar det.
  */
 Page {
     id: page
@@ -37,16 +37,49 @@ Page {
         ]
     }
 
+    // Installerad version, för provlyssningens sökväg (se previewUrl)
+    property string appVersion: ""
+
+    Component.onCompleted: {
+        var xhr = new XMLHttpRequest()
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                try { page.appVersion = JSON.parse(xhr.responseText).version || "" } catch (e) {}
+            }
+        }
+        xhr.open("GET", Qt.resolvedUrl("../manifest.json"))
+        xhr.send()
+    }
+
+    /*
+     * Provlyssningen spelas av media-hub, som bara släpper igenom filer i appens
+     * versionskatalog (<click-rot>/<app>/<version>/), inte via symlänken
+     * "current" som larmen sparas med. Byt därför tillbaka till versionen här.
+     */
+    function previewUrl(url) {
+        var s = url.toString()
+        if (appVersion.length > 0)
+            s = s.replace("/waker.sandgren.one/current/", "/waker.sandgren.one/" + appVersion + "/")
+        return s
+    }
+
     function choose(url) {
+        var again = selected.toString() === url.toString()
         selected = url
         soundSelected(url)
+        // Ett nytt tryck på ljudet som spelas stoppar det
+        if (again && preview.playbackState === Audio.PlayingState) {
+            preview.stop()
+            return
+        }
         preview.stop()
-        preview.source = url
+        preview.source = previewUrl(url)
         preview.play()
     }
 
     Audio {
         id: preview
+        onError: console.warn("Waker: preview failed:", errorString, source)
     }
 
     Connections {
